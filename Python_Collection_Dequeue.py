@@ -12,6 +12,5 @@ for i in range (n):
         d.pop()
     elif(lines[0]=="popleft"):
         d.popleft()
-length=len(d)
-for i in range(length):
+for i in range(len(d)):
     print(d[i], end= " ")
